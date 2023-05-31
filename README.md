@@ -1,12 +1,13 @@
 # WizardOfWikipedia: Knowledge-powered Conversational Agents
 
-## Planned activities
-
-- [x] ~~Monday 8/5: Data exploration activities such as data visualization, clustering and figuring out how a implementation might look like.~~
-- [x] ~~No date set: Continue with development of a retrieval-based response chatbot and figuring out a way to show the validity of the early implementation~~
-- [x] ~~Wednesday 24/5: Select the implementation that provides the best selection of passages compared to the original dataset. Also select if we want to work on the other extra assignments related to our data set.~~
-- [x] Sunday 28/5: Hand-in project.
-- [ ] Thursday 31/5: Presentation
+## Planned improvements
+- [ ] find out why in certain cases source sentence is not found in training data
+- [ ] try out a combination of the DM and DBOW model of Doc2Vec
+- [ ] check improvements on accuracy that come from using bigger vector_size
+- [ ] use a different training dataset (just the sentences used for creating wizard responses)
+- [ ] use tokenizing that includes numerical data
+- [ ] check if fasttext yields better performance
+- [ ] train a transformer on the data
 
 ## Project implementation
 
